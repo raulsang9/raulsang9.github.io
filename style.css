@@ -252,7 +252,7 @@ nav.scrolled .nav-links a {
 .about-card:hover .skills-category h4 {
     color: var(--accent-glow);
 }
-.about-card:hover .skills-wrapper h3 {
+.about-card:hover h3 {
     color: #ffffff;
 }
 
