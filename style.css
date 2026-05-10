@@ -516,6 +516,21 @@ h3 { color: var(--text-heading); margin-top: 0; margin-bottom: 5px; }
 .skill-meter-fill.fill-75 { width: 75%; }
 .skill-meter-fill.fill-70 { width: 70%; }
 
+.skill-logos-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill-icon-logo {
+    height: 40px;
+    max-width: 80px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
 .contact-text {
     display: block;
     line-height: 1.3;
