@@ -516,6 +516,10 @@ h3 { color: var(--text-heading); margin-top: 0; margin-bottom: 5px; }
 .skill-meter-fill.fill-75 { width: 75%; }
 .skill-meter-fill.fill-70 { width: 70%; }
 
+.tools-block {
+    margin-top: 30px;
+}
+
 .tools-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
