@@ -516,19 +516,40 @@ h3 { color: var(--text-heading); margin-top: 0; margin-bottom: 5px; }
 .skill-meter-fill.fill-75 { width: 75%; }
 .skill-meter-fill.fill-70 { width: 70%; }
 
-.skill-logos-row {
-    display: flex;
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 16px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-    align-items: center;
+    margin-top: 20px;
 }
 
-.skill-icon-logo {
-    height: 40px;
-    max-width: 80px;
+.tool-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px;
+    background: var(--bg-grad-2);
+    border-radius: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.04);
+    min-height: 140px;
+    text-align: center;
+}
+
+.tool-logo {
+    height: 32px;
+    width: auto;
+    max-width: 75px;
     object-fit: contain;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.tool-card span {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--text-heading);
+    font-weight: 700;
 }
 
 .contact-text {
